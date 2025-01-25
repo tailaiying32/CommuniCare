@@ -1,0 +1,7 @@
+{
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "tailwindStylesheet": "./src/index.css",
+    "tailwindConfig": "./tailwind.config.ts",
+    "tailwindAttributes": ["myClassList"],
+    "tailwindFunctions": ["clsx", "tw"]
+}
