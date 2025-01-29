@@ -6,9 +6,11 @@ interface NavLinkProps {
 export default function NavLink({ text, icon }: NavLinkProps) {
   return (
     <>
-      <button className="flex h-[23px] w-auto flex-row bg-none text-center">
-        <img src={icon} alt="navlink icon" />
-        <p className="text-sm font-semibold text-neutral-800">{text}</p>
+      <button className="flex h-6 w-auto flex-row gap-2 bg-none px-6 py-3 text-center">
+        <img src={icon} alt="navlink icon" className="align-center h-6" />
+        <p className="align-center h-6 font-semibold text-neutral-800">
+          {text}
+        </p>
       </button>
     </>
   );
