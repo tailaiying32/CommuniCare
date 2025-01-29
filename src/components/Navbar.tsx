@@ -12,10 +12,14 @@ export default function NavBar() {
         />
       </div>
       <div className="flex flex-row gap-10 justify-self-end">
-        <NavLink text={"Home"} icon="src/assets/home.png" />
-        <NavLink text={"About"} icon="src/assets/about.png" />
-        <NavLink text={"Contact"} icon="src/assets/contact.png" />
-        <NavLink text={"Team"} icon="src/assets/team.png" />
+        <NavLink text={"Home"} icon="src/assets/home.png" url="/" />
+        <NavLink text={"About"} icon="src/assets/about.png" url="/about" />
+        <NavLink
+          text={"Contact"}
+          icon="src/assets/contact.png"
+          url="/contact"
+        />
+        <NavLink text={"Team"} icon="src/assets/team.png" url="/team" />
         <DownloadAppButton />
       </div>
     </div>
