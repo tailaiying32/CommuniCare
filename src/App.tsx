@@ -1,3 +1,4 @@
+import NavBar from "./components/Navbar";
 import "./App.css";
 
 // testing git
@@ -5,7 +6,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <p className="bg-blue-100 text-6xl font-bold underline underline-offset-auto">
+      <NavBar />
+      <p className="text-6xl font-bold underline underline-offset-auto text-neutral-900">
         This is CommuniCare
       </p>
     </>

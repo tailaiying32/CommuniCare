@@ -1,13 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+@theme {
+  /* colors */
+  --color-primary-base: #6bc2ad;
+  --color-secondary-base: #ebfae7;
+  --color-secondary-white: #faf9f6;
+
+  /* neutrals */
+  --color-neutral-50: #fcfcfc;
+  --color-neutral-100: #f7f7f7;
+  --color-neutral-200: #f2f2f2;
+  --color-neutral-300: #ebebeb;
+  --color-neutral-400: #c9c9c9;
+  --color-neutral-500: #ababab;
+  --color-neutral-600: #818181;
+  --color-neutral-700: #6d6d6d;
+  --color-neutral-800: #4d4d4d;
+  --color-neutral-900: #2b2b2b;
+
+  /* teal extended palette */
+  --color-teal-50: #e4f4f1;
+  --color-teal-100: #bce4db;
+  --color-teal-400: #53b49d;
+  --color-teal-600: #409880;
+  --color-teal-800: #347762;
+
+  /* green extended palette */
+  --color-green-50: #e5f4e9;
+  --color-green-100: #c0e4c8;
+  --color-green-400: #47b568;
+  --color-green-600: #119945;
+  --color-green-700: #00883a;
+  --color-green-800: #007730;
+  --color-green-900: #00581d;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,14 +51,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;
@@ -32,12 +68,12 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -54,17 +90,18 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
-  }
+  } */
 }
+
