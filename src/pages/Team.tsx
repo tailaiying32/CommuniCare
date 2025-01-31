@@ -1,5 +1,5 @@
 import NavBar from "../components/Navbar";
-
+//BLAHHHHHH
 export default function Team() {
   return (
     <div>
