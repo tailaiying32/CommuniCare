@@ -1,6 +1,8 @@
 import NavLink from "./NavLink";
 import DownloadAppButton from "./DownloadAppButton";
 
+// testing git 1/31/2025
+
 export default function NavBar() {
   return (
     <div className="fixed top-0 left-0 m-0 flex h-20 w-full items-center justify-between gap-10 bg-neutral-50 pr-9 pl-6 align-middle">
