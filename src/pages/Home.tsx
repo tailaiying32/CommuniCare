@@ -2,7 +2,7 @@ import NavBar from "../components/Navbar";
 import "./Home.css";
 
 // testing git
-
+//ygygygdiqwhxuwxhwgxwtuhwx qwt
 function Home() {
   return (
     <>
