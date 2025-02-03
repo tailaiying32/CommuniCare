@@ -1,10 +1,12 @@
 import NavBar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
     <>
       <NavBar />
-      <h1>CONTACT</h1>
+      <div className="min-h-screen">CONTACT</div>
+      <Footer />
     </>
   );
 }
