@@ -34,6 +34,9 @@
   --color-green-700: #00883a;
   --color-green-800: #007730;
   --color-green-900: #00581d;
+
+  /* for about section only */
+  --color-about-header-green: #437829;
 }
 
 :root {
