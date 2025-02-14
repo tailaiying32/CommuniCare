@@ -17,7 +17,14 @@ export default function Footer() {
               href="mailto:communicare.med@gmail.com"
               className="hover:underline"
             >
-              communicare.med@gmail.com
+              <div className="left-2 flex gap-2">
+                <img
+                  src="src/assets/email.png"
+                  alt="email icon"
+                  className="h-6 w-6 self-center"
+                />
+                <p className="self-center">communicare.med@gmail.com</p>
+              </div>
             </a>
           </p>
           <JoinTeamButton />
