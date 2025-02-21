@@ -8,39 +8,42 @@ export default function Contact() {
       <NavBar />
       <div className="flex min-h-screen flex-col items-center">
         {/* Banner */}
-        <div className="relative flex h-64 w-full items-center justify-center bg-blend-multiply">
+        <div className="bg-opacity-50 relative flex h-64 w-full items-center justify-center bg-black">
           <img
             src="src/assets/contact-header.png"
             alt="people"
-            className="absolute h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover"
           />
-          <p className="relative z-10 text-5xl font-bold text-white">
+          <p className="relative z-10 text-center text-5xl font-bold text-white">
             Contact Us
           </p>
         </div>
 
         {/* Contact Form Section */}
-        <div className="mt-10 w-full max-w-2xl text-center">
-          <p className="text-4xl text-[#437829]">Send Us a Message</p>
-          <p className="mt-2 text-gray-600">
+        <div className="mt-12 w-full max-w-3xl px-6 text-center sm:px-12">
+          <p className="text-4xl font-semibold text-[#437829]">
+            Send Us a Message
+          </p>
+          <p className="mt-4 text-lg text-gray-600">
             Have a question? Contact us using the form below, and one of our
             team members will be in touch shortly!
           </p>
 
-          <form className="mt-6 gap-14 space-y-4">
+          <form className="mt-8 space-y-8">
             {/* Email Us Button */}
             <button
               type="button"
-              className="mb-10 flex w-full items-center rounded-sm border-1 border-[#7ba769] p-6 text-left"
+              className="flex w-full items-center gap-4 rounded-lg border border-[#7ba769] p-4 text-left shadow-sm transition hover:bg-[#f0f8f0]"
+              
             >
               <img
                 src="src/assets/email-dark.png"
                 alt="email icon"
-                className="mr-3 h-6 w-6"
+                className="h-8 w-8"
               />
               <div>
-                <p className="text-[0.625rem] text-gray-500">EMAIL US AT</p>
-                <p className="text-xs font-semibold">
+                <p className="text-sm text-gray-500">EMAIL US AT</p>
+                <p className="text-lg font-semibold">
                   communicare.med@gmail.com
                 </p>
               </div>
@@ -50,28 +53,29 @@ export default function Contact() {
             <div className="space-y-6">
               <input
                 type="text"
-                placeholder="Name"
-                className="w-full rounded-sm border-1 border-neutral-400 p-2.5"
+                placeholder="Your Name"
+                className="w-full rounded-lg border border-neutral-400 p-3 text-lg placeholder-gray-500 focus:border-[#437829] focus:outline-none"
               />
               <input
                 type="email"
-                placeholder="Email"
-                className="w-full rounded-sm border-1 border-neutral-400 p-2.5"
+                placeholder="Your Email"
+                className="w-full rounded-lg border border-neutral-400 p-3 text-lg placeholder-gray-500 focus:border-[#437829] focus:outline-none"
               />
               <textarea
-                placeholder="Message"
-                className="w-full rounded-sm border-1 border-neutral-400 p-2.5"
-                // rows="4"
+                placeholder="Your Message"
+                className="w-full rounded-lg border border-neutral-400 p-3 text-lg placeholder-gray-500 focus:border-[#437829] focus:outline-none"
               ></textarea>
             </div>
 
             {/* Submit Button */}
             <button
               type="submit"
-              className="rounded-full border-[1.5px] border-[#007730] px-6 py-2 text-[#007730] transition hover:bg-[#437829] hover:text-white"
+              className="rounded-full border-[1.5px] border-[#007730] bg-transparent px-8 py-3 text-lg font-semibold text-[#007730] transition hover:bg-[#437829] hover:text-white"
             >
-              Send
+              Send Message
             </button>
+
+            <div className="mb-12" />
           </form>
         </div>
       </div>
