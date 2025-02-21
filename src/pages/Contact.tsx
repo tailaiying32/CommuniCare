@@ -8,7 +8,7 @@ export default function Contact() {
       <NavBar />
       <div className="flex min-h-screen flex-col items-center">
         {/* Banner */}
-        <div className="relative flex h-64 w-full items-center justify-center bg-blend-multiply">
+        <div className="relative flex h-64 w-full items-center justify-center pb-10 top-22">
           <img
             src="src/assets/contact-header.png"
             alt="people"
