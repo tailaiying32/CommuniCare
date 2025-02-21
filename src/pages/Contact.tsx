@@ -8,7 +8,7 @@ export default function Contact() {
       <NavBar />
       <div className="flex min-h-screen flex-col items-center">
         {/* Banner */}
-        <div className="bg-opacity-50 relative flex h-64 w-full items-center justify-center bg-black">
+        <div className="relative flex h-64 w-full items-center justify-center bg-blend-multiply">
           <img
             src="src/assets/contact-header.png"
             alt="people"
@@ -20,16 +20,14 @@ export default function Contact() {
         </div>
 
         {/* Contact Form Section */}
-        <div className="mt-12 w-full max-w-3xl px-6 text-center sm:px-12">
-          <p className="text-4xl font-semibold text-[#437829]">
-            Send Us a Message
-          </p>
-          <p className="mt-4 text-lg text-gray-600">
+        <div className="mt-10 w-full max-w-2xl text-center">
+          <p className="text-4xl text-[#437829]">Send Us a Message</p>
+          <p className="mt-2 text-gray-600">
             Have a question? Contact us using the form below, and one of our
             team members will be in touch shortly!
           </p>
 
-          <form className="mt-8 space-y-8">
+          <form className="mt-6 gap-14 space-y-4">
             {/* Email Us Button */}
             <button
               type="button"
