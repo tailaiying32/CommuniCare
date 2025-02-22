@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
 
         {/* Contact Form Section */}
-        <div className="mt-10 w-full max-w-2xl text-center">
+        <div className="mt-40 w-full max-w-2xl text-center">
           <p className="text-4xl text-[#437829]">Send Us a Message</p>
           <p className="mt-2 text-gray-600">
             Have a question? Contact us using the form below, and one of our
