@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="text-sm">
             <a
               href="mailto:communicare.med@gmail.com"
-              className="hover:underline"
+              className="hover:underline underline-offset-4"
             >
               <div className="left-2 flex gap-2">
                 <img
@@ -23,7 +23,7 @@ export default function Footer() {
                   alt="email icon"
                   className="h-6 w-6 self-center"
                 />
-                <p className="self-center">communicare.med@gmail.com</p>
+                <p className="self-center ">communicare.med@gmail.com</p>
               </div>
             </a>
           </p>
@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         {/* Right Section: Navigation Links (Moves below on small screens) */}
-        <div className="mt-4 flex flex-col items-center space-y-4 text-xs md:mt-0 md:items-end">
+        <div className="mt-4 flex flex-col items-center space-y-4 text-xs md:mt-0 md:items-end underline-offset-3">
           <Link to="/" className="hover:underline">
             Home
           </Link>

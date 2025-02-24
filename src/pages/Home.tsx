@@ -12,12 +12,13 @@ function Home() {
         <div className="relative bg-gradient-to-b from-white via-white to-white/50">
           <div className="relative flex flex-col items-center max-w-6xl mx-auto text-neutral-800 py-20">
             <div className="flex flex-row items-center justify-between w-full">
+
               <div className="flex flex-col max-w-2xl text-left z-10">
-                <h1 className="text-6xl font-bold">Find the Right Healthcare Whenever You Need.</h1>
-                <p className="text-2xl font-normal mt-4">
+                <h1 className="text-6xl font-bold leading-[75px] mb-4">Find the Right Healthcare Whenever You Need.</h1>
+                <p className="text-2xl font-normal mt-4 leading-10 mb-4">
                   CommuniCare will help connect you with free healthcare services nearby because you deserve to feel better.
                 </p>
-                <button className="mt-6 px-6 py-3 bg-neutral-800 text-white text-lg font-semibold rounded-full shadow-md hover:bg-gray-700 transition w-48 z-10">
+                <button className="mt-6 px-6 py-3 bg-neutral-800 text-white text-2xl font-semibold rounded-full shadow-md hover:bg-gray-700 transition w-72 h-20 z-10">
                   Join App Waitlist
                 </button>
               </div>
@@ -35,7 +36,7 @@ function Home() {
           <img
             src="src/assets/homes.png"
             alt="homes"
-            className="absolute bottom-[-150px] w-full h-auto z-0"
+            className="absolute bottom-[-150px] w-full h-auto z-0 opacity-50"
           />
         </div>
 
@@ -119,10 +120,10 @@ function Home() {
             </div>
           </div>
           
-          <div className="flex flex-row items-center justify-between w-full px-52 bg-primary-base mt-75">
+          <div className="flex flex-row items-center justify-between w-full px-52 bg-primary-base mt-75 pb-8">
               <div className="flex flex-col max-w-xs text-left z-10 mt-20">
                 <h2 className="font-bold text-6xl text-neutral-900 mb-5">Workshops</h2>
-                <p className="font-weight-700 text-xl text-neutral-900 leading-8 justify-center">
+                <p className="font-weight-700 text-xl text-neutral-900 leading-8 justify-center pb-4">
                 Join one of our workshops for personalized support and guidance on your options.
                 </p>
                 <h5 className="font-bold text-xl text-neutral-900 leading-8 justify-center">

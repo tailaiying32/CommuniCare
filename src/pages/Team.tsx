@@ -69,7 +69,7 @@ export default function Team() {
                 alt={lead.name}
                 className="w-full h-full object-cover rounded-lg"
               />
-              <p className="mt-2 font-bold text-[14px] text-left w-full">{lead.name}</p>
+              <p className="mt-2 font-normal text-[15px] text-left w-full">{lead.name}</p>
               <p className="text-[12px] text-gray-600 text-left w-full">{lead.namespace}</p>
             </div>
           ))}
@@ -101,7 +101,7 @@ export default function Team() {
                 alt={member.name}
                 className="w-full h-full object-cover rounded-lg"
               />
-              <p className="mt-2 font-bold text-[14px] text-left w-full">{member.name}</p>
+              <p className="mt-2 font-normal text-[15px] text-left w-full">{member.name}</p>
               <p className="text-[12px] text-gray-600 text-left w-full">{member.namespace}</p>
             </div>
           ))}
@@ -132,7 +132,7 @@ export default function Team() {
                 alt={member.name}
                 className="w-full h-full object-cover rounded-lg"
               />
-              <p className="mt-2 font-bold text-[14px] text-left w-full">{member.name}</p>
+              <p className="mt-2 font-normal text-[15px] text-left w-full">{member.name}</p>
               <p className="text-[12px] text-gray-600 text-left w-full">{member.namespace}</p>
             </div>
           ))}
@@ -147,7 +147,7 @@ export default function Team() {
             alt={Legal[0].name}
             className="w-1/4 h-auto object-cover rounded-lg mx-auto"
           />
-          <p className="mt-2 font-bold text-[14px]">{Legal[0].name}</p>
+          <p className="mt-2 font-normal text-[15px]">{Legal[0].name}</p>
           <p className="text-[12px] text-gray-600">{Legal[0].namespace}</p>
         </div>
 
