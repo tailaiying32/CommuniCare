@@ -3,7 +3,7 @@ import JoinTeamButton from "./JoinTeamButton";
 
 export default function Footer() {
   return (
-    <div className="w-screen space-y-10 bg-neutral-800 px-6 py-6 pt-16 pb-10 font-semibold text-neutral-50 md:px-52">
+    <div className="w-screen space-y-10 bg-neutral-800 px-6 py-6 pt-16 pb-10 font-semibold text-neutral-50 lg:px-52">
       <div className="md: container mx-auto flex flex-col items-center justify-between gap-10 px-6 md:flex-row md:items-start">
         {/* Left Section: Logo, Email, Join Team */}
         <div className="flex w-56 flex-col items-center space-y-6 align-middle md:items-start">
@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="text-sm">
             <a
               href="mailto:communicare.med@gmail.com"
-              className="hover:underline underline-offset-4"
+              className="underline-offset-4 hover:underline"
             >
               <div className="left-2 flex gap-2">
                 <img
@@ -23,7 +23,7 @@ export default function Footer() {
                   alt="email icon"
                   className="h-6 w-6 self-center"
                 />
-                <p className="self-center ">communicare.med@gmail.com</p>
+                <p className="self-center">communicare.med@gmail.com</p>
               </div>
             </a>
           </p>
@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         {/* Right Section: Navigation Links (Moves below on small screens) */}
-        <div className="mt-4 flex flex-col items-center space-y-4 text-xs md:mt-0 md:items-end underline-offset-3">
+        <div className="mt-4 flex flex-col items-center space-y-4 text-xs underline-offset-3 md:mt-0 md:items-end">
           <Link to="/" className="hover:underline">
             Home
           </Link>
