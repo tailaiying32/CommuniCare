@@ -106,11 +106,11 @@ export default function App() {
 
           <div className="mx-auto max-w-6xl">
             <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-16">
-              <div className="scroll-animate lg:w-1/2">
-                <h2 className="text-5xl font-bold text-neutral-800 md:text-5xl">
+              <div className="scroll-animate lg:w-full">
+                <h2 className="text-center text-5xl font-bold text-neutral-800 md:text-5xl lg:text-left">
                   Meet the CommuniCare App
                 </h2>
-                <p className="mt-6 text-lg leading-10 text-neutral-700 md:text-2xl">
+                <p className="mt-6 text-center text-lg leading-10 text-neutral-700 md:text-2xl lg:text-left">
                   Our app takes into consideration user needs such as
                   <strong className="font-semibold"> distance</strong>,
                   <strong className="font-semibold"> accessibility</strong>,
@@ -118,7 +118,7 @@ export default function App() {
                   among others, to recommend matched clinical and social
                   healthcare resources.
                 </p>
-                <button className="mt-8 rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500">
+                <button className="mx-auto mt-8 rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 lg:mx-0">
                   Join App Waitlist
                 </button>
               </div>
@@ -127,7 +127,7 @@ export default function App() {
                 <img
                   src="src/assets/Group 52.png"
                   alt="App Screenshot"
-                  className="h-auto max-w-full object-contain"
+                  className="h-auto max-w-1/4 object-contain lg:w-full lg:max-w-3/4"
                 />
               </div>
             </div>
